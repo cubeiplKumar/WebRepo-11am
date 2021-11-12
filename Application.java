@@ -20,4 +20,12 @@ public class CallingMethodsInSameClass
 		printOne();
 		printOne();
 	}
+	#working for the feature 301 by vivek
+	public static void printOne() {
+		System.out.println("feature301 by vivek");
+	}
+	public static void printTwo() {
+		printOne();
+		printOne();
+	}
 }
