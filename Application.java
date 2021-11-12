@@ -20,6 +20,7 @@ public class CallingMethodsInSameClass
 		printOne();
 		printOne();
 	}
+
 	#working for the feature 301 by vivek
 	public static void printOne() {
 		System.out.println("feature301 by vivek");
@@ -28,4 +29,11 @@ public class CallingMethodsInSameClass
 		printOne();
 		printOne();
 	}
+
+	#changes made for feature300 
+	 public static void main(String args[]){  
+     System.out.println("Working on the feature300! by dev mahesh");  
+    }  
+	
+
 }
